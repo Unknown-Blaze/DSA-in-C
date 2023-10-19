@@ -10,5 +10,9 @@ int main(){
     }
     printf("%d\n", sum);
 
+    int sum2 = 0;
+    for (int i = 10; i > 0; i--) sum2 += i;
+    printf("%d", sum2);
+
     return 0;
 }
